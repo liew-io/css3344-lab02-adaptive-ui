@@ -316,7 +316,7 @@ class _AdaptiveProfilePageState extends State<AdaptiveProfilePage> {
               ),
               SizedBox(height: 4),
               Text(
-                'Marcella Liew',
+                'LIEW YOU HENG',
                 style: TextStyle(
                   fontSize: 16,
                   color: Color(0xFF14273B),
