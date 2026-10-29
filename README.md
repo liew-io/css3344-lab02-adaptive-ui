@@ -1,6 +1,6 @@
 # CSS3344 Lab 02 - Adaptive Student Profile
 
-A standalone coursework project for CSS3344 Lab 02, built by extending the student profile card introduced in Lab 01. It keeps the Material profile card structure (student name, ID, and personal goal) and adds reusable sections, an adaptive portrait/landscape layout, and Material/Cupertino date and role pickers. This coursework is separate from the FYP.
+A standalone coursework project for CSS3344 Lab 02, built by extending the student profile card introduced in Lab 01. It keeps the Material profile card structure, uses the student's supplied profile photo and details, and adds reusable sections, an adaptive portrait/landscape layout, and Material/Cupertino date and role pickers. This coursework is separate from the FYP.
 
 ## Features
 
