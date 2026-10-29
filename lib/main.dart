@@ -233,12 +233,8 @@ class _StudentProfileCard extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 48,
+              backgroundImage: const AssetImage('assets/student_profile.jpg'),
               backgroundColor: colors.primary,
-              child: const Icon(
-                Icons.person_rounded,
-                size: 48,
-                color: Colors.white,
-              ),
             ),
             const SizedBox(height: 18),
             Text(
