@@ -140,15 +140,19 @@ class _StudentProfileScreenState extends State<StudentProfileScreen> {
           style: TextStyle(fontSize: 17, fontWeight: FontWeight.w700),
         ),
         actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 16),
-            child: Center(
-              child: Text(
-                _systemClockLabel(),
-                style: const TextStyle(fontSize: 10, color: Color(0xFF59627E)),
+          if (MediaQuery.sizeOf(context).width >= 650)
+            Padding(
+              padding: const EdgeInsets.only(right: 16),
+              child: Center(
+                child: Text(
+                  _systemClockLabel(),
+                  style: const TextStyle(
+                    fontSize: 10,
+                    color: Color(0xFF59627E),
+                  ),
+                ),
               ),
             ),
-          ),
         ],
       ),
       body: SafeArea(
